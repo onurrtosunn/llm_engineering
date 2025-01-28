@@ -56,7 +56,7 @@ class Diagnostics:
         self._step9_additional_diagnostics()
 
         if self.warnings:
-            self.log("\n===== Warnings Found =====")
+            self.log("\n===== Warnings Found  =====")
             self.log("The following warnings were detected. They might not prevent the program from running but could cause unexpected behavior:")
             for warning in self.warnings:
                 self.log(f"- {warning}")
